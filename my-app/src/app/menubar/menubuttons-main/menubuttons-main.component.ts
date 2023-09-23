@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./menubuttons-main.component.css']
 })
 export class MenubuttonsMainComponent {
-
 }
