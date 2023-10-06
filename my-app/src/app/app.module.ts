@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MenubarComponent } from './menubar/menubar.component';
 import { MenubuttonsMainComponent } from './menubar/menubuttons-main/menubuttons-main.component';
 import { InteractiveBoxComponent } from './interactive-box/interactive-box.component';
+import { CenterBoxComponent } from './interactive-box/center-box/center-box.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { InteractiveBoxComponent } from './interactive-box/interactive-box.compo
     MenubarComponent,
     MenubuttonsMainComponent,
     InteractiveBoxComponent,
+    CenterBoxComponent,
   ],
   imports: [
     BrowserModule,
