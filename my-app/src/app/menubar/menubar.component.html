@@ -1,0 +1,16 @@
+<div class="background container space-around">
+    <app-menubuttons-main 
+            class="margin"
+            [ngClass]="{'highlight': this.highlight == true}" 
+            (mouseenter)="hoverOver()"
+            (mouseout)="hoverOver()"
+            (click)="alertMe()">
+    </app-menubuttons-main>
+    <app-menubuttons-main 
+            class="margin"
+            [ngClass]="{'highlight': this.highlight == true}" 
+            (mouseenter)="hoverOver()"
+            (mouseout)="hoverOver()"
+            (click)="alertMe()">
+    </app-menubuttons-main>
+</div>
