@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { CenterBoxComponent } from './interactive-box/center-box/center-box.comp
     CenterBoxComponent,
   ],
   imports: [
+    DragDropModule,
     BrowserModule,
     AppRoutingModule
   ],
